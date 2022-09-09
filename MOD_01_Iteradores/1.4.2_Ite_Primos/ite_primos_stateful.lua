@@ -19,8 +19,7 @@ function Primos()
             index = index + 1
             return primos[index-1]
         else
-            local heprimo = false
-            while( not(heprimo) ) do
+            while( true ) do
                 local flag = false
                 for i=1, #primos do
                     if( current_natural_number%primos[i] == 0) then
@@ -29,13 +28,13 @@ function Primos()
                     end
                 end
                 if( not(flag) ) then
-                    heprimo = true
                     primos[index] = current_natural_number
+                    current_natural_number = current_natural_number + 1
+                    index = index + 1
+                    return primos[index-1]
                 end
                 current_natural_number = current_natural_number + 1
             end
-            index = index + 1
-            return primos[index-1]
         end
     end
 end

@@ -12,13 +12,11 @@ function Primos()
     local f = function(primos, Nnumber)
 
         if( Nnumber == 2) then
-            primos[1] = Nnumber
             return (Nnumber+1), primos[1]
         end
 
         local index = #primos+1
-        local heprimo = false
-        while( not(heprimo) ) do
+        while( true ) do
             local flag = false
             for i=1, #primos do
                 if( Nnumber%primos[i] == 0) then
@@ -27,18 +25,17 @@ function Primos()
                 end
             end
             if( not(flag) ) then
-                heprimo = true
                 primos[index] = Nnumber
+                return (Nnumber+1), primos[index]
             end
             Nnumber = Nnumber + 1
         end
-        return (Nnumber+1), primos[index]
     end
 
-    return f, {} , 2
+    return f, {2} , 2
 end
 
-for n in Primos() do
-   print(n)
+for n,v in Primos() do
+   print(v)
    sleep(1)
 end
