@@ -1,0 +1,30 @@
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/bin/Debug/net6.0/Iterador.exe
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/bin/Debug/net6.0/Iterador.deps.json
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/bin/Debug/net6.0/Iterador.runtimeconfig.json
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/bin/Debug/net6.0/Iterador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/bin/Debug/net6.0/Iterador.pdb
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.csproj.AssemblyReference.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.AssemblyInfoInputs.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.AssemblyInfo.cs
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.csproj.CoreCompileInputs.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/refint/Iterador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.pdb
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/Iterador.genruntimeconfig.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Iteradores/obj/Debug/net6.0/ref/Iterador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/bin/Debug/net6.0/Iterador
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/bin/Debug/net6.0/Iterador.deps.json
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/bin/Debug/net6.0/Iterador.runtimeconfig.json
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/bin/Debug/net6.0/Iterador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/bin/Debug/net6.0/ref/Iterador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/bin/Debug/net6.0/Iterador.pdb
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.csproj.AssemblyReference.cache
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.GeneratedMSBuildEditorConfig.editorconfig
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.AssemblyInfoInputs.cache
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.AssemblyInfo.cs
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.csproj.CoreCompileInputs.cache
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/ref/Iterador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.pdb
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Iteradores/obj/Debug/net6.0/Iterador.genruntimeconfig.cache

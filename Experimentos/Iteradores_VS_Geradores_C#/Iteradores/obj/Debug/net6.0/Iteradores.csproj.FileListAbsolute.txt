@@ -1,0 +1,15 @@
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.csproj.AssemblyReference.cache
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.AssemblyInfoInputs.cache
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.AssemblyInfo.cs
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.csproj.CoreCompileInputs.cache
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\bin\Debug\net6.0\Iteradores.exe
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\bin\Debug\net6.0\Iteradores.deps.json
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\bin\Debug\net6.0\Iteradores.runtimeconfig.json
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\bin\Debug\net6.0\Iteradores.dll
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\bin\Debug\net6.0\Iteradores.pdb
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.dll
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\refint\Iteradores.dll
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.pdb
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\Iteradores.genruntimeconfig.cache
+C:\Users\oseas.lemos\source\C# and .NET Essential Training\Iteradores\Iteradores\obj\Debug\net6.0\ref\Iteradores.dll

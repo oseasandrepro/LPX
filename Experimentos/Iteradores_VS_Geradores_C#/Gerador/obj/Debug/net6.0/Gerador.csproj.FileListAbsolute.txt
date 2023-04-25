@@ -1,0 +1,45 @@
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/bin/Debug/net6.0/Gerador.exe
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/bin/Debug/net6.0/Gerador.deps.json
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/bin/Debug/net6.0/Gerador.runtimeconfig.json
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/bin/Debug/net6.0/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/bin/Debug/net6.0/Gerador.pdb
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.csproj.AssemblyReference.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.AssemblyInfoInputs.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.AssemblyInfo.cs
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.csproj.CoreCompileInputs.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/refint/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.pdb
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/Gerador.genruntimeconfig.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores/Gerador/obj/Debug/net6.0/ref/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.exe
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.deps.json
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.runtimeconfig.json
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.pdb
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.csproj.AssemblyReference.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.AssemblyInfoInputs.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.AssemblyInfo.cs
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.csproj.CoreCompileInputs.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/refint/Gerador.dll
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.pdb
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.genruntimeconfig.cache
+C:/Users/oseas.lemos/source/C# and .NET Essential Training/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/ref/Gerador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.deps.json
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.runtimeconfig.json
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/ref/Gerador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/bin/Debug/net6.0/Gerador.pdb
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.csproj.AssemblyReference.cache
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.GeneratedMSBuildEditorConfig.editorconfig
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.AssemblyInfoInputs.cache
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.AssemblyInfo.cs
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.csproj.CoreCompileInputs.cache
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/ref/Gerador.dll
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.pdb
+/home/oseas/LPX/Experimentos/Iteradores_VS_Geradores_C#/Gerador/obj/Debug/net6.0/Gerador.genruntimeconfig.cache
