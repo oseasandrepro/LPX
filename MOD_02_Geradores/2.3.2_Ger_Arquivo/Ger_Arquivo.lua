@@ -10,34 +10,24 @@
     - Os yield devem retornar os caracteres do arquivo.
 ]]--
 
-function Ger_Arquivo(file)
-
-	local flag = false
-	local co1 = coroutine.create(
-		function (filename)
-		    local f = io.open(filename)
-		    	while(true) do
-				local ch = f:read(1)
-				if( ch == nil) then 
-					break 
-				end 
-				coroutine.yield(ch)
-			end
-			f:close()
+local co1 = coroutine.create(
+	function (filename)
+	    local f = io.open(filename)
+	    while(true) do
+			local ch = f:read(1)
+			if( ch == nil) then break end 
+			coroutine.yield(ch)
 		end
-	)
-	return function ()
-		local v 
-		if( not flag ) then
-			 _,v = coroutine.resume(co1, file)
-			flag = true
-		else
-			_,v = coroutine.resume(co1)
-		end
-		return v
+		f:close()
 	end
+)
+
+
+local ok, c = coroutine.resume(co1, "teste.txt")
+
+while( not (c==nil) ) do
+    print(ok,c)
+    ok, c = coroutine.resume(co1)
 end
 
-for c in Ger_Arquivo("teste.txt") do
-    print(c)
-end
+
