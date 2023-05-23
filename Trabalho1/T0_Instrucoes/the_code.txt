@@ -1,0 +1,5 @@
+x = 10 * 2    # um comentário que deve ser ignorado
+y = 0 - 5       # outro comentário
+cod = 11 * 3
+muxtex = 10 - 5
+print(x + y)
