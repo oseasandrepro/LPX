@@ -1,0 +1,85 @@
+;;;
+	- Adicione mais dois pixels em direções opostas.
+	- Adicione um parâmetro de cor à task e modifique as cores dos pixels.
+	- Crie uma nova task que desenhe uma figura de vários pixels e que se movimenta por 1s em cada direção (dir,baixo,esq,cima).
+;;;
+
+^["@/pico/pico.ceu"]
+
+pico-state-set-title("pico-Ceu: Altere lines")
+
+data :RGBColor = [r,g,b,o]
+
+task Line (pos:XY, vel:XY, color:RGBColor) {
+    par {
+        every :Pico.Draw {
+            pico-state-set-color-draw(color)
+            pico-output-draw-pixel(pos)
+        }
+    } with {
+        every 50:ms {
+            set pos.x = pos.x + vel.x
+            set pos.y = pos.y + vel.y
+        }
+    }
+}
+
+task itinerant-rect(pos:XY, vel:XY, dim:XY) {
+    var rect :Rect = [[pos.x,pos.y],[dim.x,dim.y]]
+    par {
+        every :Pico.Draw {
+            pico-state-set-color-draw([255,0,0, 255])
+            pico-output-draw-rect(rect)
+        }
+    } with {
+    	loop{
+		 awaiting 1:s 
+		 {
+		 	every :Pico.Frame {
+			  	set pos.x = pos.x + vel.x
+			  	set rect = [[pos.x,pos.y],[dim.x,dim.y]]
+			  	await 100:ms
+		  	}
+		 }
+		 awaiting 1:s 
+		 {
+		        every :Pico.Frame{
+			  	set pos.y = pos.y - vel.y
+			  	set rect = [[pos.x,pos.y],[dim.x,dim.y]]
+			  	await 100:ms
+		  	}
+		 }
+		 
+		 awaiting 1:s 
+		 {	every :Pico.Frame{
+			  	set pos.x = pos.x - vel.x
+			  	set rect = [[pos.x,pos.y],[dim.x,dim.y]]
+			  	await 100:ms
+		  	}
+		 }
+		 
+		 awaiting 1:s 
+		 {
+		 	every :Pico.Frame{
+			  	set pos.y = pos.y + vel.y
+			  	set rect = [[pos.x,pos.y],[dim.x,dim.y]]
+			  	await 100:ms
+		  	}
+		 }
+	 }
+    }
+}
+
+spawn {
+    spawn Line ([-25,25],[1,-1], [255,255,2255, 255])
+    spawn Line ([-25,-25],[1,1], [255,255,255, 255])
+    
+    spawn Line ([0,25], [0,-1], [255,0,2255, 255])
+    spawn Line ([0,-25], [0,1], [0,255,0, 255])
+    
+    spawn itinerant-rect([0,0], [1,1], [5,5])
+    await 60:s
+    pico-quit()
+}
+
+pico-loop()

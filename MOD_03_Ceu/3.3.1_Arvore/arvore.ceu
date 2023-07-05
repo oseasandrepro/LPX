@@ -1,0 +1,73 @@
+;;;
+	----------------- 3.3.1 - Refaça o exercício 1.3.1 em Ceu ----------------
+	Crie um iterador em Ceu que receba uma arvore e
+	retorne todas as folhas, da esquerda para a direita.
+	Variante 1: transforme a árvore em um vetor
+	- Crie um iterador em Ceu que receba uma arvore e retorne todas as folhas, da esquerda para a direita.
+
+	- Variante 1: transforme a árvore em um vetor
+
+	val a = [
+	    :aaa,
+	    [
+		:xxx,
+		:yyy,
+	    ],
+	    :bbb,
+	]
+
+	      +
+	    / | \
+	 aaa  +  bbb
+	     / \
+	   xxx yyy
+
+	saida:
+	:aaa
+	:xxx
+	:yyy
+	:bbb
+
+
+;;;
+
+func :rec ArvToArray (a) {
+	var vetor = #[]
+	
+	loop in iter(a), item {
+	    if ( not (type(item)==:tuple) ) {
+	      set vetor[+] = item
+	    }else{
+	      var auxv = ArvToArray(item)
+	      loop in [0 -> #auxv), i{
+	      	set vetor[+] = auxv[i]
+	      }
+	    }
+	}
+	move(vetor)
+}
+
+
+val f = func (t) {
+    var ret = nil
+    if( t.1 <= (#t.2-1) ) { 
+    	set ret = (t.2)[t.1]
+    	set t.1 = t.1 + 1
+    }
+    
+    move(ret)
+}
+
+func Arvore(av){
+	var vet = ArvToArray(av)
+	
+	move( [f, 0, [1,2,3,4]] )
+}
+
+val a = [ :aaa, [:xxx, :yyy], :bbb]
+
+var itr = [f, 0, ArvToArray(a)]
+
+loop in itr, v {
+    println(v)
+}
