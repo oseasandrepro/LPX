@@ -1,0 +1,2 @@
+soma = 10 + 2    # um comentário que deve ser ignorado
+x = 1 * 17    # um comentário que deve ser ignorado

@@ -1,0 +1,29 @@
+			if(state == 0 and c ~='=') then
+				if token == '' then token=c else token = token..c end
+			elseif(state == 0 and c == '=' ) then
+				coroutine.yield(token)
+				coroutine.yield(c)
+				token = ''
+				state = 1
+			elseif( state == 1 and isDigit(c) ) then
+				token=c
+				ok, c = coroutine.resume(co2)
+				while isDigit(c) do
+					if token == '' then token=c else token = token..c end
+					ok, c = coroutine.resume(co2)
+				end
+				coroutine.yield(token)
+				token = c
+			elseif(state == 1 and c=='+') then
+				coroutine.yield(token)
+				coroutine.yield(c)
+				token = ''
+				state = 2
+			elseif( state == 2 and isDigit(c) ) then
+				if token == '' then token=c else token = token..c end
+			elseif(state == 2 and (not isDigit(c)) ) then
+				coroutine.yield(token)
+				token = c
+				state = 0
+			end
+			ok, c = coroutine.resume(co2)
